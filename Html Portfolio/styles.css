@@ -71,6 +71,37 @@ a {
   font-weight: 700;
 }
 
+/* Experience  */
+
 .experience {
-  height: 100vh;
+  /* height: 100vh; */
+  text-align: center;
+  padding-top: 100px;
+}
+
+.experience-text {
+  border: 1px solid var(--lite-color);
+  padding: 10px 20px;
+  border-radius: 25px;
+  display: inline;
+  color: var(--lite-color);
+  align-self: center;
+}
+
+.expo1 {
+  margin: 70px 30% 70px 150px;
+  text-align: left;
+  color: var(--lite-color);
+}
+
+.expo-title {
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.exp-intervals {
+  display: block;
+  color: #dbeff086;
+  margin-top: 20px;
 }
