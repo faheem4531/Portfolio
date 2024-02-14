@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  background: linear-gradient(to bottom, rgb(216, 238, 240), rgb(1, 41, 44), rgb(8, 9, 29));
+  /* color: #f1ecec; */
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+}
+
+.body {
+  padding: 120px 0 1000px;
+  width: 100%;
+  text-align: center;
+  color: rgb(1, 41, 44);
+}
+
+.name {
+  font-size: 80px;
+  font-weight: 600;
+  letter-spacing: -1px;
+}
+
+.title {
+  font-weight: 500;
+  margin-top: -10px;
+}
+
+.caption {
+  margin-top: 40px;
+  font-weight: 700;
+}
