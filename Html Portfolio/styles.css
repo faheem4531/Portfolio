@@ -1,7 +1,7 @@
 :root {
-  --lite-color: rgb(216, 238, 240);
-  --lite-dark-color: rgb(1, 41, 44);
-  --dark-color: rgb(8, 9, 29);
+  --lite-color: #dbeff0;
+  --lite-dark-color: #01292c;
+  --dark-color: #08091d;
 }
 
 * {
@@ -13,7 +13,10 @@ body {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  background: linear-gradient(to bottom, var(--lite-color), var(--lite-dark-color), var(--dark-color));
+  background: linear-gradient(to bottom,
+      var(--lite-color),
+      var(--lite-dark-color),
+      var(--dark-color));
   font-family: "Poppins", sans-serif;
   font-style: normal;
 }
@@ -66,4 +69,8 @@ a {
 .caption {
   margin-top: 40px;
   font-weight: 700;
+}
+
+.experience {
+  height: 100vh;
 }
