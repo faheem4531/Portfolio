@@ -1,3 +1,9 @@
+:root {
+  --lite-color: rgb(216, 238, 240);
+  --lite-dark-color: rgb(1, 41, 44);
+  --dark-color: rgb(8, 9, 29);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -7,17 +13,43 @@ body {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  background: linear-gradient(to bottom, rgb(216, 238, 240), rgb(1, 41, 44), rgb(8, 9, 29));
-  /* color: #f1ecec; */
+  background: linear-gradient(to bottom, var(--lite-color), var(--lite-dark-color), var(--dark-color));
   font-family: "Poppins", sans-serif;
   font-style: normal;
 }
 
+a {
+  text-decoration: none;
+  color: var(--dark-color);
+  font-weight: 500;
+  cursor: pointer;
+}
+
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 120px 120px;
+}
+
+.nav a {
+  padding: 10px 20px;
+  transition: all 0.8s ease-in-out;
+}
+
+.nav a:hover {
+  border: 1px solid var(--dark-color);
+  box-shadow: 0 0 10px rgba(8, 9, 29, 0.5);
+  border-radius: 30px;
+  font-weight: 700;
+}
+
 .body {
-  padding: 120px 0 1000px;
   width: 100%;
   text-align: center;
-  color: rgb(1, 41, 44);
+  color: var(--lite-dark-color);
+  height: 100vh;
 }
 
 .name {
