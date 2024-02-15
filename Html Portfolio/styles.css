@@ -111,7 +111,6 @@ a {
 
 .acti-right {
   margin: 70px 150px 70px 0;
-  /* background-color: red; */
   text-align: left;
   color: var(--lite-color);
   display: flex;
@@ -121,7 +120,6 @@ a {
 
 .acti-left {
   margin: 70px 150px 70px 150px;
-  /* background-color: red; */
   text-align: left;
   color: var(--lite-color);
   display: flex;
