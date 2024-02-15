@@ -3,6 +3,7 @@
   --lite-dark-color: #01292c;
   --dark-color: #08091d;
   --darker: #000111;
+  --grey: #dbeff086;
 }
 
 * {
@@ -12,7 +13,7 @@
 
 body {
   box-sizing: border-box;
-  padding: 0;
+  padding: 0 0 100px;
   margin: 0;
   background: linear-gradient(to bottom,
       var(--lite-color),
@@ -237,4 +238,119 @@ a {
   100% {
     left: -100%
   }
+}
+
+
+/* Projects  */
+.project-bg {
+  background-image: url(./images/bg-star.png);
+}
+
+.projects {
+  color: var(--lite-color);
+  padding: 100px 120px;
+}
+
+.project-card {
+  border: 1px solid var(--lite-color);
+  width: 40%;
+  border-radius: 5px;
+  padding: 20px 20px 10px;
+}
+
+.project-card h2 {
+  margin-bottom: 20px;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: 700;
+  display: inline-block;
+  background-image: linear-gradient(to right, var(--lite-color), var(--grey));
+  -webkit-background-clip: text;
+  color: transparent;
+  letter-spacing: .1rem;
+  transition: all .2s;
+}
+
+.project-card h2:hover {
+  transform: skewY(2deg) skewX(15deg) scale(1.1);
+  text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2);
+}
+
+.major-p {
+  margin: 7px 0;
+  text-align: left;
+  display: flex;
+}
+
+.major-p p {
+  margin-right: 10px;
+}
+
+.lang {
+  display: flex;
+  column-gap: 15px;
+  color: var(--lite-color);
+}
+
+.lang span {
+  padding: 2.5px 5px;
+  transform: skewX(-25deg);
+  background-image: linear-gradient(to right, var(--grey), var(--lite-dark-color));
+  font-weight: 400;
+}
+
+
+.about-p {
+  display: flex;
+  text-align: left;
+}
+
+
+.about-p span {
+  text-align: left;
+  font-size: 13px;
+  font-weight: 300;
+  width: 85%;
+  color: #dbeff086;
+  margin-left: 10px;
+  letter-spacing: 1px;
+}
+
+.role {
+  align-items: center;
+  margin-top: 10px;
+}
+
+.role-mode {
+  padding-left: 20px;
+}
+
+.time-logo-wraper {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.time-period {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+}
+
+.time-period div {
+  color: var(--grey);
+  font-size: 12px;
+  margin-left: 5px;
+}
+
+.github-logo {
+  width: 50px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.www-logo {
+  width: 45px;
+  cursor: pointer;
 }
