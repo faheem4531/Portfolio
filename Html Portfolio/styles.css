@@ -87,6 +87,7 @@ a {
   display: inline;
   color: var(--lite-color);
   align-self: center;
+  letter-spacing: 0.5rem;
 }
 
 .expo1 {
@@ -167,4 +168,73 @@ a {
   margin: 0 5px;
   color: #dbeff086;
 
+}
+
+
+
+/* Skills */
+
+.skill {
+  color: var(--lite-color);
+  font-size: 23px;
+  border-radius: 5px;
+  border: 1px solid var(--lite-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.marquee {
+  height: 90px;
+  width: 100%;
+  margin: 100px 0;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.marquee div {
+  position: absolute;
+  width: 100%;
+  left: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.marquee .marqueeone {
+  animation: marquee 20s linear infinite;
+}
+
+.marquee .marqueetwo {
+  animation: marquee 20s linear 5s infinite;
+}
+
+.marquee .marqueethree {
+  animation: marquee 20s linear 10s infinite;
+}
+
+.marquee .marqueefour {
+  animation: marquee 20s linear 15s infinite;
+}
+
+.marquee:hover div {
+  animation-play-state: paused;
+}
+
+@keyframes marquee {
+  0% {
+    left: 100%;
+  }
+
+  50% {
+    left: -100%;
+  }
+
+  100% {
+    left: -100%
+  }
 }
