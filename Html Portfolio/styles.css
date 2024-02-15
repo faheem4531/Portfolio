@@ -244,11 +244,19 @@ a {
 /* Projects  */
 .project-bg {
   background-image: url(./images/bg-star.png);
+
 }
 
 .projects {
   color: var(--lite-color);
   padding: 100px 120px;
+
+}
+
+.p-col-1 {
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .project-card {
@@ -353,4 +361,8 @@ a {
 .www-logo {
   width: 45px;
   cursor: pointer;
+}
+
+.no-link {
+  cursor: not-allowed;
 }
