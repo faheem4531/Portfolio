@@ -1,9 +1,9 @@
 :root {
   --lite-color: #dbeff0;
+  --grey: #dbeff086;
   --lite-dark-color: #01292c;
   --dark-color: #08091d;
   --darker: #000111;
-  --grey: #dbeff086;
 }
 
 * {
@@ -390,6 +390,53 @@ a {
 /* Contact me  */
 
 .Contact {
-  margin-top: 100px;
+  margin: 100px 120px;
   color: #dbeff0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left-sec {
+  text-align: left;
+  max-width: 40%;
+}
+
+.left-sec h2 {
+  font-weight: 500;
+  font-size: 32px;
+}
+
+.left-sec p {
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--grey);
+  margin: 15px 0 30px;
+}
+
+.insta-logo {
+  margin-bottom: -3px;
+  /* background-color: red; */
+}
+
+.contact-logos img {
+  /* width: 50px; */
+  margin-right: 10px;
+}
+
+.right-sec {
+  padding: 20px 0 20px 100px;
+  border-left: 1px solid var(--lite-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.r-s-wraper {
+  display: flex;
+  column-gap: 20px;
+}
+
+.r-s-wraper:not(:last-child) {
+  margin-bottom: 20px;
 }
