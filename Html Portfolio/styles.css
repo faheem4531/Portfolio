@@ -79,7 +79,49 @@ a {
   font-weight: 700;
 }
 
+@media screen and (max-width:768px) {
+
+  /* header  */
+  .body {
+    background-image: none;
+    box-shadow: none;
+  }
+
+  .nav {
+    margin: 10px 50px 70px;
+  }
+
+  .name {
+    font-size: 50px;
+  }
+
+}
+
+@media screen and (max-width:500px) {
+
+  /* header  */
+
+  .nav {
+    margin: 10px 30px 100px;
+  }
+
+  .name {
+    font-size: 40px;
+  }
+
+  .caption {
+    font-size: 10px;
+    font-weight: 500;
+  }
+
+  .nav a {
+    padding: 10px 10px;
+    font-size: 14px;
+  }
+}
+
 /* Experience  */
+
 .expereince-shadow {
   box-shadow: 0px 30px 100px 200px #01292c40;
 }
