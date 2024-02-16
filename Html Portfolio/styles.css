@@ -33,6 +33,16 @@ a {
   cursor: pointer;
 }
 
+.body {
+  background-image: url(./images/bg-lines-1.svg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  box-shadow: 0px 0px 100px 200px #01292c40;
+  width: 100%;
+  text-align: center;
+  color: var(--lite-dark-color);
+  height: 100vh;
+}
 
 .nav {
   display: flex;
@@ -53,13 +63,6 @@ a {
   font-weight: 700;
 }
 
-.body {
-  width: 100%;
-  text-align: center;
-  color: var(--lite-dark-color);
-  height: 100vh;
-}
-
 .name {
   font-size: 80px;
   font-weight: 600;
@@ -77,6 +80,9 @@ a {
 }
 
 /* Experience  */
+.expereince-shadow {
+  box-shadow: 0px 30px 100px 200px #01292c40;
+}
 
 .experience {
   text-align: center;
@@ -112,6 +118,13 @@ a {
 }
 
 /* Activities  */
+
+.activities-bg {
+  background-image: url(./images/bg-lines-2.svg);
+  background-repeat: no-repeat;
+  background-position: left right;
+  background-size: 100% 100%;
+}
 
 .acti-right {
   margin: 70px 150px 70px 0;
@@ -308,12 +321,10 @@ a {
   font-weight: 400;
 }
 
-
 .about-p {
   display: flex;
   text-align: left;
 }
-
 
 .about-p span {
   text-align: left;
@@ -421,7 +432,6 @@ a {
 }
 
 .contact-logos img {
-  /* width: 50px; */
   margin-right: 10px;
 }
 
