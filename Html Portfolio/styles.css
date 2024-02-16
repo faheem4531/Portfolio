@@ -478,7 +478,7 @@ a {
     margin: 70px 10% 50px 50px;
   }
 
-  /* Activitioes  */
+  /* Activities  */
 
   .activities-bg {
     background-image: none;
@@ -601,10 +601,63 @@ a {
   .marquee {
     border-top: 1px solid var(--grey);
     border-bottom: 1px solid var(--grey);
-    margin: 50px 0;
+    margin: 50px 0 100px;
   }
 
   /* Projects  */
+  .projects {
+    padding: 80px 50px;
+  }
+
+  .project-card {
+    padding: 15px 15px 10px;
+  }
+
+  .project-card h2 {
+    margin-bottom: 20px;
+    font-size: 25px;
+  }
+
+  .lang {
+    column-gap: 10px;
+  }
+
+  .lang span {
+    font-size: 14px;
+    padding: 2.5px 3px;
+  }
+
+  .about-p span {
+    font-size: 12px;
+    width: 90%;
+    letter-spacing: 0px;
+  }
+
+  .role {
+    margin-top: 5px;
+  }
+
+  .role-mode {
+    font-size: 12px;
+  }
+
+  .github-logo {
+    width: 35px;
+    margin-right: 7px;
+  }
+
+  .www-logo {
+    width: 30px;
+  }
+
+  .tx {
+    font-size: 14px !important;
+  }
+
+  .view-more {
+    margin: 50px auto 0;
+  }
+
 }
 
 @media screen and (max-width:992px) and (min-width:768px) {
