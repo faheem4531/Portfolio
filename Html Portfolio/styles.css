@@ -118,85 +118,6 @@ a {
   margin-top: 20px;
 }
 
-@media screen and (max-width:992px) {
-
-  /* Experience  */
-  .experience {
-    padding-top: 0px;
-  }
-
-  .expo1 {
-    margin: 70px 10% 50px 100px;
-  }
-
-}
-
-@media screen and (max-width:768px) {
-
-  /* header  */
-  .body {
-    background-image: none;
-    box-shadow: none;
-  }
-
-  .nav {
-    margin: 10px 50px 70px;
-  }
-
-  .name {
-    font-size: 50px;
-  }
-
-  /* Experience  */
-  .expereince-shadow {
-    box-shadow: none;
-    margin-bottom: 150px;
-  }
-
-  .expo1 {
-    margin: 70px 10% 50px 50px;
-  }
-}
-
-@media screen and (max-width:500px) {
-
-  /* header  */
-
-  .nav {
-    margin: 10px 30px 100px;
-  }
-
-  .name {
-    font-size: 40px;
-  }
-
-  .caption {
-    font-size: 10px;
-    font-weight: 500;
-  }
-
-  .nav a {
-    padding: 10px 10px;
-    font-size: 14px;
-  }
-
-  /* experience  */
-  .expo1 {
-    margin: 70px 30px 20px 40px;
-  }
-
-  .expo-title {
-    font-size: 20px;
-  }
-
-  .exp-intervals {
-    margin-top: 15px;
-  }
-
-  .expo1 p {
-    font-size: 12px;
-  }
-}
 
 /* Activities  */
 
@@ -244,7 +165,6 @@ a {
   font-weight: 600;
 }
 
-
 .end-t {
   background: linear-gradient(to top left,
       var(--lite-color),
@@ -266,6 +186,161 @@ a {
   color: #dbeff086;
 
 }
+
+
+
+
+@media screen and (max-width:992px) {
+
+  /* Experience  */
+  .experience {
+    padding-top: 0px;
+  }
+
+  .expo1 {
+    margin: 70px 10% 50px 100px;
+  }
+
+  /* Activities  */
+  .activities-bg {
+    background-size: 140% 140%;
+  }
+
+}
+
+@media screen and (max-width:768px) {
+
+  /* header  */
+  .body {
+    background-image: none;
+    box-shadow: none;
+  }
+
+  .nav {
+    margin: 10px 50px 70px;
+  }
+
+  .name {
+    font-size: 50px;
+  }
+
+  /* Experience  */
+  .expereince-shadow {
+    box-shadow: none;
+    margin-bottom: 150px;
+  }
+
+  .expo1 {
+    margin: 70px 10% 50px 50px;
+  }
+
+  /* Activitioes  */
+
+  .activities-bg {
+    background-image: none;
+  }
+
+  .acti-right {
+    margin: 70px 60px 70px 0;
+  }
+
+  .acti-left {
+    margin: 70px 40px 70px 60px;
+  }
+}
+
+@media screen and (max-width:550px) {
+
+  /* header  */
+
+  .nav {
+    margin: 10px 30px 100px;
+  }
+
+  .name {
+    font-size: 40px;
+  }
+
+  .caption {
+    font-size: 10px;
+    font-weight: 500;
+  }
+
+  .nav a {
+    padding: 10px 10px;
+    font-size: 14px;
+  }
+
+  /* experience  */
+  .expo1 {
+    margin: 70px 30px 20px 40px;
+  }
+
+  .expo-title {
+    font-size: 20px;
+  }
+
+  .exp-intervals {
+    margin-top: 15px;
+  }
+
+  .expo1 p {
+    font-size: 12px;
+  }
+
+  /* Activities  */
+  .acti-right {
+    margin: 70px 40px 70px 0;
+  }
+
+  .acti-left {
+    margin: 70px 0px 70px 40px;
+  }
+
+  .acti-title {
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  .start-t {
+    border: 1px solid var(--lite-color);
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 15px;
+  }
+
+  .end-t {
+    font-weight: 500;
+    border: 1px solid var(--lite-color);
+    padding: 5px 10px;
+    font-size: 15px;
+    border-radius: 5px;
+  }
+
+  .linked {
+    font-size: 15px;
+    margin: 0 2px;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
