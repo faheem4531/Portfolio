@@ -706,7 +706,12 @@ a {
 
   /* header  */
   .nav {
-    margin: 10px 30px 100px;
+    margin: 0px 25px 140px;
+  }
+
+  .title {
+    font-weight: 500;
+    margin-top: 10px;
   }
 
   .name {
@@ -715,12 +720,15 @@ a {
 
   .caption {
     font-size: 10px;
-    font-weight: 500;
   }
 
   .nav a {
-    padding: 10px 10px;
-    font-size: 14px;
+    padding: 5px 10px;
+    font-size: 12px;
+    transition: none;
+    border: 1px solid var(--dark-color);
+    box-shadow: 0 0 10px rgba(8, 9, 29, 0.5);
+    border-radius: 20px;
   }
 
   /* experience  */
