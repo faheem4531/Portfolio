@@ -932,6 +932,10 @@ a {
   box-shadow: 0 0 20px rgba(66, 67, 73, 0.5);
 }
 
+.d-inline {
+  display: inline-block;
+}
+
 /* projects section  */
 .project-page {
   text-align: center;
@@ -944,4 +948,8 @@ a {
   font-size: 35px;
   font-weight: 600;
 
+}
+
+.xxx {
+  border-top: 3px solid;
 }
