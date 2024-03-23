@@ -2,7 +2,7 @@
   --lite-color: #dbeff0;
   --grey: #dbeff086;
   --lite-dark-color: #01292c;
-  --lite-dark-color-2: #032224;
+  --lite-dark-color-2: rgb(3, 34, 36);
   --dark-color: #08091d;
   --darker: #000111;
 }
@@ -25,6 +25,7 @@ body {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   user-select: none;
+  position: relative;
 }
 
 a {
@@ -32,6 +33,32 @@ a {
   color: var(--dark-color);
   font-weight: 500;
   cursor: pointer;
+}
+
+.animation{
+background-color: var(--dark-color);
+position: fixed;
+width: 100%;
+top: 0;
+font-size: 60px;
+color: #70abaf;
+height: 100vh;
+z-index: 1;
+
+font-family: "Merriweather", serif;
+
+display: flex;
+justify-content: center;
+align-items: center;animation: slideUp 4s ease forwards;
+}
+
+@keyframes slideUp {
+  from {
+    top: 0; /* Start position */
+  }
+  to {
+    top: -100vh; /* End position */
+  }
 }
 
 .body {
